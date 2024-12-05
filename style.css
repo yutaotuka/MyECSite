@@ -2,4 +2,26 @@
 
 body {
   background: pink;
+  margin: 0;
+}
+h1{
+  margin: 0;
+  font-size: 0;
+}
+img{
+  margin: 0;
+  vertical-align: bottom;
+}
+
+.content{
+  max-width: 600px;
+  margin: 0 auto;
+  width: calc(100% - 64px);
+  box-sizing: border-box;
+}
+
+/* header */
+header{
+  padding: 34px 0;
+  background-color: white;
 }
